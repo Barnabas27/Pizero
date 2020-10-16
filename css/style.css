@@ -1,3 +1,63 @@
-h3 {
-    text-align: center;
+@font-face {
+src:url("/images/DancingScript-VariableFont_wght.ttf");
+font-family:curly;
 }
+
+#h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family:curly;
+    position:relative;
+}
+#h3:before {
+    content: "";
+    display:block;
+    width:100px;
+    height:2px;
+    background:white; 
+    position: absolute;
+    left:29%;
+    top:50%;
+    z-index:-.3;
+
+}
+span {
+    background:transparent;
+}
+#h3:after {
+    content: "";
+    display:block;
+    width:100px;
+    height:2px;
+    background:white; 
+    position: absolute;
+    right:29%;
+    top:50%;
+    z-index: -.3;
+}
+.intro {
+    margin-top:-30%;
+  
+}
+.pizzero {
+    margin-top: .3%;
+}
+.back-g {
+    margin-top:18%;
+    margin-left:46%;
+
+}
+.about {
+    margin-top:-35%;
+    margin-left:19%;
+    width:400px;
+}
+
+h2 {
+font-family:curly;
+color:goldenrod;
+font-weight: bold;
+}
+/* .par {
+    margin-left: -29%;
+} */
