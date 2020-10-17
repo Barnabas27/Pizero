@@ -53,7 +53,7 @@ function resetFieldValues () {
     $("#pizza-quantity").val("");
 };
 //  start of my user logic
- $(function) {
+ $(function() {
      var modal = $(".ordering-plate");
      var placeOrder = $(".place-order");
      var close = $(".close-thing")
@@ -63,4 +63,19 @@ function resetFieldValues () {
      close.click(function() {
          modal.hide();
      });
- 
+    $(".what-you-want").submit(function(event) {
+        event.preventDefault();
+        var pizzaSize = $("#pizza-size").val();
+        var pizzaType = $("#pizzatype").val();
+        var crustType = $("#crusttype").val();
+        var extraToppings = $("#toppings").val();
+        var pizzaQuantity = $parseInt($("#pizza-quantity").val());
+        var delivery = $("#delivery").val();
+        var newPizzaOrder = new getPizzaOrder(pizzaType,crustType,extraToppings,pizzaQuantity,delivery,pizzaSize);
+        newPizzaOrder.finalPrice();
+        newPizzaOrder.toBeDelivered();
+        alert ("you have ordered " + pizzaQuantity + "" + pizzaSize + "" + pizzaType + " pizza(s) with a " + crustType + " crust and " + extraToppings + " topping. It will be " + delivery + ".");
+        alert ("The total cost is " + newPizzaOrder.price + "ksh");
+        resetFieldValues();
+    });
+});
