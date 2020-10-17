@@ -58,6 +58,46 @@ font-family:curly;
 color:goldenrod;
 font-weight: bold;
 }
-/* .par {
-    margin-left: -29%;
-} */
+section .face {
+    height:100%;
+}
+.spec {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: -10%;
+    position: relative;
+}
+.spec:before {
+    content: "";
+    display:block;
+    width:100px;
+    height:2px;
+    background:goldenrod; 
+    position: absolute;
+    left:35%;
+    top:50%;
+    z-index:-.3;
+}
+.spec:after {
+    content: "";
+    display:block;
+    width:100px;
+    height:2px;
+    background:goldenrod; 
+    position: absolute;
+    right:35%;
+    top:50%;
+    z-index:-.3;
+}
+.place-order {
+    background-color: rgba(167, 40, 8, 0.8);
+    color:white;
+    margin:0 40% 2% 40%;
+    padding:1%;
+    border-radius: 10px;
+    font-weight:bold;
+}
+.place-order:hover {
+    cursor: pointer;
+    background-color: rgb(148, 113, 24);
+}
