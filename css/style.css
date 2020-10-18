@@ -149,3 +149,15 @@ section .face {
     font-size:40px;
     border-radius: 10px;
 }
+.sizedenotions{
+    color:white;
+}
+.smallpizza {
+    margin-top: 6%;
+}
+.mediumpizza{
+    margin-top:3%;
+}
+.largepizza {
+    margin-top: 1%;
+}
