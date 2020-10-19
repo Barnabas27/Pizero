@@ -111,7 +111,7 @@ section .face {
     padding:2%;
     height:800px;
     border-radius: 5px;
-    /* display:none; */
+    display:none;
 }
 .close-thing {
     font-size: 75px;

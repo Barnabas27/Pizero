@@ -5,7 +5,6 @@ function getPizzaOrder(pizzaType,crustType,extraToppings,pizzaQuantity,delivery,
     this.pizzaQuantity = pizzaQuantity;
     this.delivery = delivery;
     this.pizzaSize = pizzaSize;
-    this.delivery = delivery;
     this.sizePrice=0;
     this.crustPrice = 0;
     this.toppingPrice = 0;
