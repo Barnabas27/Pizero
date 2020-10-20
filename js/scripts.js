@@ -80,8 +80,10 @@ function resetFieldValues () {
         newPizzaOrder.finalPrice();
       
         newPizzaOrder.toBeDelivered();
-        alert ("you have ordered " + pizzaQuantity + "" + pizzaSize + "" + pizzaType + " pizza(s) with a " + crustType + " crust and " + extraToppings + " topping. It will be " + delivery + ".");
-        alert ("The total cost is " + newPizzaOrder.price + " ksh");
+        alert ("you have ordered " + pizzaQuantity + " " + pizzaSize + " " + pizzaType + " pizza(s) with a  " + crustType + " crust and  " + extraToppings + " topping. It will be " + delivery + " .");
+        alert ("The total cost is  " + newPizzaOrder.price + " /=");
         resetFieldValues();
     });
 });
+
+

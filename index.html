@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
 
     <title>Document</title>
 </head>
@@ -57,14 +58,17 @@
             </div>
 
         </section>
-        <section>
+        <section id="portfolio">
             <h2 class="spec">OUR SPECIALITY</h2>
-            <div class="row menu-row">
+            <div class="row menu-row mb-4">
                 <div class="col-md-3 pizza-choice">
-                    <div class="card">
+                    <div class="card" id="hawaii">
                         <img class="menu-images image-fluid" src="images/Hawaiian Pizza.jpg" alt="hawaiian pizza"
                             width="100%">
-                        <p class="pizza-name">Hawaiian Pizza</p>
+
+                        <p class="pizza-name" id="Hawaii">Hawaiian Pizza</p>
+
+
 
                     </div>
 
@@ -136,13 +140,13 @@
                 </div>
             </div>
             <div class="place-order">
-                <h3 style="text-align: center;">Place order</h3>
+                <h3 style="text-align: center;"><a href = "#press">Place order</a></h3>
             </div>
 
         </section>
         <!-- I'll have my pop here -->
         <section>
-            <div class="ordering-plate">
+            <div class="ordering-plate" id="press">
                 <span class="close-thing">&times;</span>
                 <h3 class="sizes-available">Size Available</h3>
                 <div class="row">
@@ -181,7 +185,7 @@
                             </select>
                         </div>
                         <div class="col-md-4 crusttype">
-                            <label for="crust" style = "color: white;">Crust</label>
+                            <label for="crust" style="color: white;">Crust</label>
                             <select name="crust" id="crusttype" class="form-control">
                                 <option value="stuffed">Stuffed - Ksh.150</option>
                                 <option value="thick">Thick - Ksh.200</option>
@@ -190,7 +194,7 @@
                             </select>
                         </div>
                         <div class="col-md-4 toppings">
-                            <label for="extra-toppings" style = "color:white;">Toppings</label>
+                            <label for="extra-toppings" style="color:white;">Toppings</label>
                             <select name="extra-toppings" id="toppings" class="form-control">
                                 <option value="Mushrooms">Mushroom</option>
                                 <option value="Cheese">Cheese</option>
@@ -213,7 +217,7 @@
                             </select>
                         </div>
                         <div class="col-md-4 pizza-size">
-                            <label for="pizza-size" style = "color:white;">Size</label>
+                            <label for="pizza-size" style="color:white;">Size</label>
                             <select class="form-control" id="pizza-size">
                                 <option value="large">Large</option>
                                 <option value="medium">Medium</option>
@@ -227,6 +231,55 @@
             </div>
 
         </section>
+        <div id="footer-area">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h5>Pizzerro</h5>
+                    <p>Want to find out more about us?</p>
+                    <ul class="footer-social list-inline">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer">
+                        <h4>Support</h4>
+                        <ul class="link-area">
+
+                            <li><a href="#"><i class="fa fa-long-arrow-right"></i>Careers</a></li>
+                            <li><a href="#"><i class="fa fa-long-arrow-right"></i>FAQs</a></li>
+                            <li><a href="#"><i class="fa fa-long-arrow-right"></i>Policies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer">
+                        <h4>Our contact</h4>
+                        <ul class="link-area">
+
+                            <li><a href="#"><i class="fa fa-phone"></i>+254234567</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i>pizzerro@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-map"></i>321,Westwood Lane</a></li>
+                            <li><a href="#"><i class="fa fa-globe"></i>www.pizzero.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-area text-center">
+                            <p>&copy; 2020,All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -240,7 +293,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
-        <script src = "./js/scripts.js"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
