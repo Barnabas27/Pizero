@@ -161,4 +161,18 @@
     .largepizza {
         margin-top: 1%;
     }
+    #footer-area {
+        padding: 90px 0 60px 0;
+        background: #49170e;
+        color:white;
+    }
+    .link-area li {
+        padding :5px 5px 5px 0;
+        list-style:none;
+        
+    }
+    #footer-area{
+    align-items: center;
+    }
+    
     
