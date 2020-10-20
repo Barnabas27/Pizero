@@ -86,11 +86,4 @@ function resetFieldValues () {
     });
 });
 
-$(document).ready(function() {
-    $("$hawaii").mouseover(function() {
-        $("#Hawaii").show()
-    })
-    .mouseout(function(){
-        $("#Hawaii").hide()
-    });
-});
+
