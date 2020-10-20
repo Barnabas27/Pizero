@@ -174,5 +174,9 @@
     #footer-area{
     align-items: center;
     }
+    .copyright-area{
+        background:red;
+        padding:30px 0;
+    }
     
     
